@@ -80,6 +80,7 @@ void lire_mot() {
 }
 
 
+
 void lire_nombre() {
     char nombre[11];
     int indice = 0;
