@@ -30,6 +30,15 @@ typedef struct {
 
 TSym_Cour SYM_COUR;
 
+
+
+
+
+
+
+
+
+
 void lire_mot() {
     char mot[20];
     int indice = 0;
