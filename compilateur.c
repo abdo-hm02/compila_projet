@@ -903,21 +903,7 @@ void AFFEC()
     generer1(STO);
 }
 
-// void SI()
-// {
-//     Test_Symbole(IF_TOKEN, IF_ERR);
-//     COND();
-//     Test_Symbole(THEN_TOKEN, THEN_ERR);
-//     int brn = ++ pc;
-//     PCODE[brn].MNE = BZE;
-//     INST();
-//     PCODE[brn].suite = pc + 1;
-//     if (SYM_COUR.CODE == ELSE_TOKEN)
-//     {
-//         Sym_Suiv();
-//         INST();
-//     }
-// }
+
 void SI()
 {
     Test_Symbole(IF_TOKEN, IF_ERR);
@@ -1300,7 +1286,7 @@ int main()
     PROGRAM();
     printf("Analyse syntaxique terminee.\n", SYM_COUR.NOM);
     semantique();
-    printf("Analyse semantique terminee");
+    printf("Analyse semantique terminee\n");
 
     //printf("Program execution completed.\n");
 
