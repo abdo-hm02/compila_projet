@@ -1,0 +1,23 @@
+INT 	 3 
+LDA 	 1 
+LDI 	 100 
+STO 
+LDA 	 2 
+LDI 	 2 
+STO 
+LDA 	 2 
+LDV 
+LDI 	 2 
+EQL 
+BZE 	 19 
+LDA 	 3 
+LDA 	 2 
+LDV 
+LDI 	 3 
+MUL 
+STO 
+BRN 	 22 
+LDA 	 3 
+LDI 	 0 
+STO 
+HLT 
